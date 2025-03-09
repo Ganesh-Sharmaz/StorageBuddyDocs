@@ -20,3 +20,6 @@ If you are developing a production application, we recommend using TypeScript an
             </div>
 
             meri choti library
+
+
+<img className=" p-3 h-fit w-full rounded-3xl " src={lss} alt="" />
