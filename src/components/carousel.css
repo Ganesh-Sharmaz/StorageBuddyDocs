@@ -1,0 +1,33 @@
+/* Animation 1: Starts DOWN, moves UP, then repeats */
+@keyframes slideUpThenDown {
+  0% {
+    transform: translateY(500px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(500px);
+  }
+}
+
+.animate-slide-up-down {
+  animation: slideUpThenDown 25s ease-in-out infinite;
+}
+
+/* Animation 2: Starts UP, moves DOWN, then repeats */
+@keyframes slideDownThenUp {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(600px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-slide-down-up {
+  animation: slideDownThenUp 25s ease-in-out infinite;
+}
